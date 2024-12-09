@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'inter';
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 75px;
+}
+
+p {
+    color: #272727;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+.h2 {
+    text-align: left;
+    text-transform: none;
+    color: rgb(255, 89, 0);
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.head-left {
+    display: flex;
+    align-items: center;
+}
+
+.head-left nav {
+    margin-left: 50px;
+}
+
+.head-left ul {
+    list-style-type: none;
+}
+
+.head-left a {
+    text-decoration: none;
+    color: #6d01d3;
+}
+
+.head-left ul a {
+    margin-right: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+nav ul {
+    display: flex;
+}
+
+.contact {
+    font-size: 1.15em;
+    background-color: rgb(255, 89, 0);
+    color: #fff;
+    padding: 14px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.foot-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot-left ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.foot-left ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.follow p {
+    color: #fff;
+}
+
+
+.foot-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.foot-right p{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .9em;
+    color: #fff;
+}
+
+.foot-right a {
+    background-color: rgb(255, 89, 0);
+    color: #fff;
+    padding: 14px 40px;
+    border-radius: 5px;
+}
+
+/*Service*/
+.service-box {
+    display: flex;
+    gap: 10%;
+    margin-top: 80px;
+}
+
+.service-box .item {
+    width: 70%;
+}
+
+.service-box .item img {
+    width: 100%;
+}
+
+.service-box p {
+    font-size: .9em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.item h3, .item p {
+    margin-top: 20px;
+}
+
+/*Testimonials*/
+.testimonials {
+    background-color: rgba(109, 1, 211, .15);
+}
+
+.test-box {
+    display: flex;
+    gap: 15%;
+    width: 100%;
+    padding: 40px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.person img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.person {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+/*Lorem*/
+.lorem-center {
+    text-align: center;
+    padding: 140px 75px;
+}
+
+.lorem-center p {
+    margin: 20px 0;
+}
+
+.lorem {
+    width: 28%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.purple {
+    color: #6d01d3;
+}
+
+/*Footer*/
+footer {
+    padding: 60px 75px;
+    background-color: #6d01d3;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-right {
+    width: 30%;
+}
+
+.foot-right .input {
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.social-icons img {
+    height: 45px;
+}
+
+.input {
+    height: 45px;
+}
+
+#input {
+    height: 100px;
+}
+
+/*Hero*/
+span {
+    color: #6d01d3;
+}
+.hero-content {
+    width: 42%;
+}
+.video-content {
+    width: 48%;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learn {
+    text-decoration: none;
+    background-color: rgb(255, 89, 0);
+    color: #fff;
+    padding: 14px 40px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.hero-content p {
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+video {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .hero {
+        flex-direction: column-reverse;
+        align-items: normal;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .video-content {
+        width: 100%;
+    }
+}
